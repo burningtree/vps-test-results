@@ -1,0 +1,56 @@
+# # # # # # # # # # # # # # # # # # #
+#            Benchy v1.2            #
+#   https://github.com/L1so/benchy  #
+#        AIO Benchmarking tool      #
+# # # # # # # # # # # # # # # # # # #
+#       20 Apr 2022 01:48 UTC       #
+# # # # # # # # # # # # # # # # # # #
+
+Server Information
+---------------------
+OS          : Ubuntu 20.04.4 LTS
+Uptime      : 268 Days, 11 Hours, 7 Minute, 20 Seconds 
+Location    : Czech Republic
+CPU         : Intel(R) Core(TM) i5-8259U CPU @ 2.30GHz
+Core        : 8 @ 900.011 MHz
+AES-NI      : ✔ Enabled
+VM-x/AMD-V  : ✔ Enabled
+Virt        : none      
+
+Disk & Memory Usage
+---------------------
+Disk        : 1.78 TiB  
+Disk Usage  : 1.46 TiB (86% Used)
+Mem         : 15.50 GiB 
+Mem Usage   : 13030 MB (82% Used)
+Swap        : 3.99 GiB  
+
+Disk Performance Check (ext4 on /dev/mapper/ubuntu--vg-ubuntu--lv):
++---------------------------------------------------------------------------+
+| Size | Read        | Write       | Total       |       IOPS (R,W,T)       |
++===========================================================================+
+| 4k   | 538.37 MB/s | 539.79 MB/s | 1.05 GB/s   | 137.8k | 138.2k | 276.0k |
+| 64k  | 216.60 MB/s | 217.74 MB/s | 434.35 MB/s | 3.5k   | 3.5k   | 6.9k   |
+| 512k | 753.68 MB/s | 793.72 MB/s | 1.51 GB/s   | 1.5k   | 1.6k   | 3.1k   |
+| 1m   | 845.92 MB/s | 902.26 MB/s | 1.70 GB/s   | 0.8k   | 0.9k   | 1.7k   |
++---------------------------------------------------------------------------+
+
+Network Performance Test:
++--------------------------------------------------------------------------------------+
+| Prot. | Provider    | Location        | Send            | Receive         | Latency  |
++======================================================================================+
+| IPv4  | Clouvider   | London, UK      | 242 Mbits/sec   | 226 Mbits/sec   | 28 ms    |
+|       | Airstream   | Wisconsin, USA  | 227 Mbits/sec   | 157 Mbits/sec   | 120 ms   |
+|       | Uztelecom   | Tashkent, UZB   | 191 Mbits/sec   | 168 Mbits/sec   | 110 ms   |
+|       | Online.net  | Paris, FRA      | 236 Mbits/sec   | 185 Mbits/sec   | 26 ms    |
+|       | WebHorizon  | Singapore, SG   | 197 Mbits/sec   | 153 Mbits/sec   | 164 ms   |
++--------------------------------------------------------------------------------------+
+
++-----------------------------------------------+
+| Geekbench 5.4.4 Tryout for Linux x86 (64-bit) |
++===============================================+
+| Single Core               | 833               |
+| Multi Core                | 2792              |
++-----------------------------------------------+
+| https://browser.geekbench.com/v5/cpu/14425056 |
++-----------------------------------------------+
