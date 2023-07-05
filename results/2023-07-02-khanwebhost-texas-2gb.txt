@@ -2,48 +2,6 @@
 #             Benchy v2.7               #
 #    https://github.com/L1so/benchy     #
 # # # # # # # # # # # # # # # # # # # # #
-#        02 Jul 2023 04:30 CEST          #
-# # # # # # # # # # # # # # # # # # # # #
-
-Server Insight                                  Hardware Information
----------------------                           ---------------------
-OS         : Ubuntu 20.04 LTS                   Model       : Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz
-Location   : United States                      Core        : 1 @ 2394.230 MHz
-Kernel     : 5.4.0-29-generic                   AES-NI      : ✔ Enabled
-Uptime     : 0 days, 0 hrs, 22 mins, 17 secs    VM-x/AMD-V  : ❌ Disabled
-Virt       : kvm                                Swap        : 1023.0 MiB
-
-Disk & Memory Usage                             Network Information
----------------------                           ---------------------
-Disk (1)   : 14.7 GiB                           ASN         : AS64236   
-Disk Usage : 2.4 GiB (17% Used)                 ISP         : UnReal Servers, LLC
-Mem        : 981.2 MiB                          IPv4        : ✔ Enabled
-Mem Usage  : 0.2 GiB (20% Used)                 IPv6        : ❌ Disabled
-
-Disk Performance Check (ext4 on /dev/vda1) (R: Read, W: Write, T: Total)
-+---------------------------------------------------------------------------+
-| Size | Read        | Write       | Total       |       IOPS (R,W,T)       |
-+===========================================================================+
-| 1    | Failed      | To          | Bench       | Disk   | Please | Retry  |
-| 1    | Failed      | To          | Bench       | Disk   | Please | Retry  |
-| 1    | Failed      | To          | Bench       | Disk   | Please | Retry  |
-| 1    | Failed      | To          | Bench       | Disk   | Please | Retry  |
-+---------------------------------------------------------------------------+
-
-Network Performance Test (Region: Mixed)
-+---------------------------------------------------------------------------------+
-| Prot. | Provider    | Location        | Send         | Receive      | Latency   |
-+---------------------------------------------------------------------------------+
-| IPv4  | Airstream   | Wisconsin, US   |  918.5 Mb/s  |  181.7 Mb/s  |   58.8 ms |
-|       | Uztelecom   | Tashkent, UZ    |  793.3 Mb/s  |  114.3 Mb/s  |  196.7 ms |
-|       | Novogara    | Amsterdam, NL   |  885.9 Mb/s  |  156.5 Mb/s  |   99.6 ms |
-|       | FiberBy     | Copenhagen, DK  |  877.5 Mb/s  |   80.7 Mb/s  |  106.9 ms |
-+---------------------------------------------------------------------------------+
-
-# # # # # # # # # # # # # # # # # # # # #
-#             Benchy v2.7               #
-#    https://github.com/L1so/benchy     #
-# # # # # # # # # # # # # # # # # # # # #
 #        02 Jul 2023 04:53 CEST          #
 # # # # # # # # # # # # # # # # # # # # #
 
