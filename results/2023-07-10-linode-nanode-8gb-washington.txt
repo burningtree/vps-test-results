@@ -1,0 +1,59 @@
+# # # # # # # # # # # # # # # # # # # # #
+#             Benchy v2.7               #
+#    https://github.com/L1so/benchy     #
+# # # # # # # # # # # # # # # # # # # # #
+#        10 Jul 2023 14:16 UTC          #
+# # # # # # # # # # # # # # # # # # # # #
+
+Server Insight                                  Hardware Information
+---------------------                           ---------------------
+OS         : Ubuntu 23.04                       Model       : AMD EPYC 7713 64-Core Processor
+Location   : United States                      Core        : 4 @ 1999.998 MHz
+Kernel     : 6.2.0-20-generic                   AES-NI      : ✔ Enabled
+Uptime     : 0 days, 0 hrs, 0 mins, 48 secs     VM-x/AMD-V  : ❌ Disabled
+Virt       : kvm                                Swap        : 512.0 MiB 
+
+Disk & Memory Usage                             Network Information
+---------------------                           ---------------------
+Disk (1)   : 156.9 GiB                          ASN         : AS63949   
+Disk Usage : 2.8 GiB (2% Used)                  ISP         : Akamai Connected Cloud
+Mem        : 7.7 GiB                            IPv4        : ✔ Enabled
+Mem Usage  : 0.4 GiB (5% Used)                  IPv6        : ✔ Enabled
+
+Disk Performance Check (ext4 on /dev/sda) (R: Read, W: Write, T: Total)
++---------------------------------------------------------------------------+
+| Size | Read        | Write       | Total       |       IOPS (R,W,T)       |
++===========================================================================+
+| 4k   | 248.51 MB/s | 249.17 MB/s | 497.69 MB/s | 63.6k  | 63.8k  | 127.4k |
+| 64k  | 2.17 GB/s   | 2.18 GB/s   | 4.36 GB/s   | 35.6k  | 35.8k  | 71.5k  |
+| 512k | 8.73 GB/s   | 9.20 GB/s   | 17.93 GB/s  | 17.9k  | 18.8k  | 36.7k  |
+| 1m   | 8.79 GB/s   | 9.38 GB/s   | 18.18 GB/s  | 9.0k   | 9.6k   | 18.6k  |
++---------------------------------------------------------------------------+
+
+Network Performance Test (Region: Mixed)
++---------------------------------------------------------------------------------+
+| Prot. | Provider    | Location        | Send         | Receive      | Latency   |
++---------------------------------------------------------------------------------+
+| IPv4  | Airstream   | Wisconsin, US   |    5.3 Gb/s  |    3.3 Gb/s  |   37.0 ms |
+|       | Uztelecom   | Tashkent, UZ    |  897.9 Mb/s  |    1.1 Gb/s  |  174.5 ms |
+|       | Novogara    | Amsterdam, NL   |    2.0 Gb/s  |    2.2 Gb/s  |   85.5 ms |
+|       | FiberBy     | Copenhagen, DK  |  951.0 Mb/s  |    2.2 Gb/s  |   91.4 ms |
++---------------------------------------------------------------------------------+
+| IPv6  | Airstream   | Wisconsin, US   |    3.2 Gb/s  |    3.0 Gb/s  |   37.0 ms |
+|       | Uztelecom   | Tashkent, UZ    |  807.8 Mb/s  |    1.1 Gb/s  |  174.5 ms |
+|       | Novogara    | Amsterdam, NL   |    2.2 Gb/s  |    2.3 Gb/s  |   85.4 ms |
+|       | FiberBy     | Copenhagen, DK  |  938.1 Mb/s  |    2.1 Gb/s  |   91.4 ms |
++---------------------------------------------------------------------------------+
+
++-----------------------------------------------+
+| Geekbench 5.5.1 Tryout for Linux x86 (64-bit) |
++===============================================+
+| Single Core        | 1083                     |
+| Multi Core         | 4028                     |
++-----------------------------------------------+
+| https://browser.geekbench.com/v5/cpu/21438102 |
++-----------------------------------------------+
+| Benchy time spent  | 6 Minutes 11 Seconds     |
++-----------------------------------------------+
+| Benchy result      | http://sprunge.us/SgNycM |
++-----------------------------------------------+
