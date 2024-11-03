@@ -2,7 +2,7 @@
 #             Benchy v2.7               #
 #    https://github.com/L1so/benchy     #
 # # # # # # # # # # # # # # # # # # # # #
-#        03 Nov 2024 21:37 UTC          #
+#        03 Nov 2024 21:55 UTC          #
 # # # # # # # # # # # # # # # # # # # # #
 
 Server Insight                                  Hardware Information
@@ -10,7 +10,7 @@ Server Insight                                  Hardware Information
 OS         : Ubuntu 24.04.1 LTS                 Model       : AMD EPYC 9354P 32-Core Processor
 Location   : Austria                            Core        : 4 @ 3245.124 MHz
 Kernel     : 6.8.0-44-generic                   AES-NI      : ✔ Enabled
-Uptime     : 1 days, 21 hrs, 51 mins, 49 secs   VM-x/AMD-V  : ✔ Enabled
+Uptime     : 1 days, 22 hrs, 9 mins, 30 secs    VM-x/AMD-V  : ✔ Enabled
 Virt       : kvm                                Swap        : 0.0 KiB   
 
 Disk & Memory Usage                             Network Information
@@ -24,10 +24,10 @@ Disk Performance Check (ext4 on /dev/sda1) (R: Read, W: Write, T: Total)
 +---------------------------------------------------------------------------+
 | Size | Read        | Write       | Total       |       IOPS (R,W,T)       |
 +===========================================================================+
-| 4k   | 223.77 MB/s | 224.36 MB/s | 448.13 MB/s | 57.3k  | 57.4k  | 114.7k |
-| 64k  | 3.01 GB/s   | 3.03 GB/s   | 6.05 GB/s   | 49.4k  | 49.7k  | 99.1k  |
-| 512k | 6.38 GB/s   | 6.72 GB/s   | 13.11 GB/s  | 13.1k  | 13.8k  | 26.9k  |
-| 1m   | 7.68 GB/s   | 8.19 GB/s   | 15.87 GB/s  | 7.9k   | 8.4k   | 16.2k  |
+| 4k   | 259.39 MB/s | 260.07 MB/s | 519.46 MB/s | 66.4k  | 66.6k  | 133.0k |
+| 64k  | 2.17 GB/s   | 2.18 GB/s   | 4.35 GB/s   | 35.6k  | 35.8k  | 71.4k  |
+| 512k | 5.53 GB/s   | 5.82 GB/s   | 11.36 GB/s  | 11.3k  | 11.9k  | 23.3k  |
+| 1m   | 6.86 GB/s   | 7.32 GB/s   | 14.18 GB/s  | 7.0k   | 7.5k   | 14.5k  |
 +---------------------------------------------------------------------------+
 
 Network Performance Test (Region: Mixed)
@@ -35,23 +35,23 @@ Network Performance Test (Region: Mixed)
 | Prot. | Provider    | Location        | Send         | Receive      | Latency   |
 +---------------------------------------------------------------------------------+
 | IPv4  | Airstream   | Wisconsin, US   |    1.8 Gb/s  |    1.9 Gb/s  |  111.7 ms |
-|       | Uztelecom   | Tashkent, UZ    |    1.8 Gb/s  |    2.6 Gb/s  |   77.2 ms |
-|       | Novogara    | Amsterdam, NL   |    4.3 Gb/s  |    4.9 Gb/s  |   17.7 ms |
-|       | FiberBy     | Copenhagen, DK  |  980.4 Mb/s  |    4.1 Gb/s  |   22.6 ms |
+|       | Uztelecom   | Tashkent, UZ    |    1.9 Gb/s  |    2.5 Gb/s  |   77.0 ms |
+|       | Novogara    | Amsterdam, NL   |    4.4 Gb/s  |    4.9 Gb/s  |   17.7 ms |
+|       | FiberBy     | Copenhagen, DK  |    1.9 Gb/s  |    3.6 Gb/s  |   22.5 ms |
 +---------------------------------------------------------------------------------+
-| IPv6  | Airstream   | Wisconsin, US   |    1.8 Gb/s  |    1.9 Gb/s  |  111.7 ms |
-|       | Uztelecom   | Tashkent, UZ    |    2.6 Gb/s  |    1.2 Gb/s  |   77.0 ms |
-|       | Novogara    | Amsterdam, NL   |    4.3 Gb/s  |    4.8 Gb/s  |   17.7 ms |
-|       | FiberBy     | Copenhagen, DK  |    2.4 Gb/s  |    3.7 Gb/s  |   22.7 ms |
+| IPv6  | Airstream   | Wisconsin, US   |    1.8 Gb/s  |    2.0 Gb/s  |  111.8 ms |
+|       | Uztelecom   | Tashkent, UZ    |    2.6 Gb/s  |    1.9 Gb/s  |   77.0 ms |
+|       | Novogara    | Amsterdam, NL   |    4.4 Gb/s  |    4.8 Gb/s  |   17.7 ms |
+|       | FiberBy     | Copenhagen, DK  |    2.8 Gb/s  |    3.9 Gb/s  |   22.5 ms |
 +---------------------------------------------------------------------------------+
 
 +-----------------------------------------------+
-| Geekbench 6.1.0 for Linux AVX2                |
+| Geekbench 5.5.1 Tryout for Linux x86 (64-bit) |
 +===============================================+
-| Single Core        | 1508                     |
-| Multi Core         | 4794                     |
+| Single Core        | 1103                     |
+| Multi Core         | 3724                     |
 +-----------------------------------------------+
-| https://browser.geekbench.com/v6/cpu/8641717  |
+| https://browser.geekbench.com/v5/cpu/23025222 |
 +-----------------------------------------------+
-| Benchy time spent  | 10 Minutes 29 Seconds    |
+| Benchy time spent  | 6 Minutes 11 Seconds     |
 +-----------------------------------------------+
